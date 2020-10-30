@@ -1,0 +1,7 @@
+title: Jumbo Build
+url: https://www.jumbo-build.co.uk
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME

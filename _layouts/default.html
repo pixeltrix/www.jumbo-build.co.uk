@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>{{ page.title }}</title>
+<link href="/styles/common.css" rel="stylesheet" type="text/css">
+<script type="text/JavaScript" src="/scripts/common.js"></script>
+</head>
+
+<body class="{{ page.body_class }}" onLoad="MM_preloadImages('/images/buttons/design_on.gif','/images/buttons/build_on.gif','/images/buttons/joinery_on.gif')">
+<div id="wrapper">
+  <div id="header">
+    <div id="logo"><a href="/"><img src="/images/shim.gif" alt="" width="209" height="37" border="0"></a></div>
+    <div id="global-nav">
+      <span><a href="/contact.html"><img src="/images/buttons/contact.gif" border="0"></a></span>
+      <span><a href="/"><img src="/images/buttons/home.gif" border="0"></a></span>
+    </div>
+  </div>
+
+  <div id="banner"><img src="/images/banners/{{ page.banner }}" alt="" width="678" height="100"></div>
+
+  <div id="navigation">
+    <span><a href="/design/"><img src="/images/buttons/{{ page.design_button }}.gif" alt="Design" name="DesignButton" width="224" height="30" border="0" id="DesignButton" onMouseOver="MM_swapImage('DesignButton','','/images/buttons/design_on.gif',1)" onMouseOut="MM_swapImgRestore()"></a></span>
+    <span><a href="/build/"><img src="/images/buttons/{{ page.build_button }}.gif" alt="Build" name="BuildButton" width="224" height="30" border="0" id="BuildButton" onMouseOver="MM_swapImage('BuildButton','','/images/buttons/build_on.gif',1)" onMouseOut="MM_swapImgRestore()"></a></span>
+    <span><a href="/joinery/"><img src="/images/buttons/{{ page.joinery_button }}.gif" alt="Joinery" name="JoineryButton" width="224" height="30" border="0" id="JoineryButton" onMouseOver="MM_swapImage('JoineryButton','','/images/buttons/joinery_on.gif',1)" onMouseOut="MM_swapImgRestore()"></a></span>
+  </div>
+
+  <div id="content">
+    {{ content }}
+  </div>
+
+  <div class="clear">&nbsp;</div>
+  <p id=footer>&copy;2009 Jumbo Build Ltd.</p>
+</div>
+</body>
+</html>

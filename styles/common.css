@@ -1,0 +1,307 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+	color: #666666;
+}
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+h3 { font-size: 14px; }
+h4 { font-size: 12px; }
+h5 { font-size: 10px; }
+h6 { font-size: 9px; }
+p {
+	margin: 0px 0px 10px 0px;
+	clear: both;
+}
+p sup {
+	font-size: 9px;
+	vertical-align: 3px;
+	line-height: 9px;
+}
+td, th {
+	font-size: 12px;
+}
+ul {
+	margin: 0px 0px 10px 20px;
+	padding: 0px;
+}
+li {
+	margin: 0px;
+	padding: 0px;
+	list-style: square;
+}
+li p {
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+}
+form {
+	margin: 0px 0px 10px 0px;
+}
+input, textarea {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+form tbody input, form tbody textarea {
+  width: 340px;
+	padding: 2px;
+}
+form tfoot input {
+	width: 120px;
+	padding: 2px;
+}
+form thead td {
+	padding: 0px 0px 0px 0px;
+}
+form tbody th {
+	padding: 10px 0px 2px 0px;
+	color: #666666;
+}
+form tbody td {
+	padding: 0px 0px 0px 0px;
+}
+form tbody td.error {
+	color: #CC0000;
+	font-size: 10px;
+}
+form tfoot td {
+	padding: 20px 0px 0px 0px;
+}
+#wrapper {
+	width: 698px;
+	margin: 0px auto;
+	text-align: left;
+}
+#header {
+	height: 90px;
+	padding: 0px;
+	margin: 0px 0px 0px 10px;
+	width: 678px;
+}
+#logo {
+	float: left;
+	padding: 40px 0px 0px 18px;
+}
+#global-nav {
+	padding: 72px 10px 0px 0px;
+	float: right;
+}
+#global-nav span {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+#banner {
+	margin: 0px 0px 3px 10px;
+}
+#navigation {
+	height: 30px;
+	margin: 0px 0px 0px 10px;
+}
+#navigation span {
+	float: left;
+	margin: 0px 3px 0px 0px;
+}
+#content {
+	clear: both;
+	padding: 0px;
+	margin: 20px 0px 0px 40px;
+}
+#content h3 {
+	margin: 0px;
+}
+#column-1 {
+	width: 299px;
+	float: left;
+	margin: 20px 20px 20px 0px;
+}
+#column-2 {
+	width: 299px;
+	float: left;
+	margin: 20px 0px;
+}
+#form-column {
+	width: 340px;
+	float: left;
+	margin: 20px 40px 20px 0px;
+}
+#address-column {
+	width: 238px;
+	float: left;
+	margin: 20px 0px;
+}
+#content-column {
+	width: 420px;
+	float: left;
+}
+#sidebar-menu, #sidebar-images {
+	width: 178px;
+	float: right;
+	display: inline;
+	margin: 0px 40px 0px 0px;
+	clear: right;
+}
+#sidebar-menu {
+	padding: 0px 0px 4px 0px;
+}
+#sidebar-menu h4 {
+	margin: 0px 0px 4px 0px;
+	padding: 0px 0px 4px 0px;
+	border-bottom: 1px solid #666666;
+}
+#sidebar-menu p {
+	margin: 0px 0px 0px 0px;
+}
+#sidebar-images p.caption {
+	background-color: #CCCCCC;
+	color: #333333;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 5px;
+	margin: -10px 0px 10px 0px;
+}
+#menu {
+	margin: 0px 0px 20px 0px;
+}
+#casestudies-menu {
+	padding: 0px 0px 4px 0px;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px solid #666666;
+}
+#footer {
+	margin: 0px 40px;
+	padding: 5px;
+	border-top: 1px solid #999999;
+	color: #999999;
+	font-size: 9px;
+	clear: both;
+	text-align: center;
+}
+body.home #header {
+	background: url(/images/headers/home.png) no-repeat center top;
+}
+body.design #header {
+	background: url(/images/headers/home.png) no-repeat center top;
+}
+body.build #header {
+	background: url(/images/headers/home.png) no-repeat center top;
+}
+body.joinery #header {
+	background: url(/images/headers/home.png) no-repeat center top;
+}
+body.home, body.home #wrapper {
+	background: #CCCCCC url(/images/bkgnds/home.gif) repeat-y center top;
+}
+body.design, body.design #wrapper {
+	background: #FF9900 url(/images/bkgnds/design.gif) repeat-y center top;
+}
+body.build, body.build #wrapper {
+	background: #3366CC url(/images/bkgnds/build.gif) repeat-y center top;
+}
+body.joinery, body.joinery #wrapper {
+	background: #FF0000 url(/images/bkgnds/joinery.gif) repeat-y center top;
+}
+body.home ul {
+	color: #333333;
+}
+body.design ul {
+	color: #FF9900;
+}
+body.build ul {
+	color: #3366CC;
+}
+body.joinery ul {
+	color: #FF0000;
+}
+#address-column p {
+	margin: 0px 0px 5px;
+}
+dl.case-study {
+	margin: 0px;
+	padding: 0px;
+}
+dl.case-study dt {
+	margin: 0px 0px 2px;
+	padding: 0px 0px 2px;
+	font-size: 10px;
+	font-style: italic;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+	clear: left;
+}
+dl.case-study dd {
+	margin: 0px;
+	padding: 0px;
+}
+dl.case-study dd span.logo {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	float: left;
+}
+dl.case-study table {
+	margin: -5px -10px 0px -10px;
+}
+dl.contact-details {
+	margin: 0px 0px 20px 0px;
+}
+dl.contact-details dt {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	width: 60px;
+	float: left;
+	font-weight: bold;
+	color: #666666;
+	font-size: 10px;
+	clear: left;
+}
+dl.contact-details dd {
+	margin: 0px;
+}
+.column-image {
+	float: left;
+	margin: 0px 6px 10px 0px;
+}
+.clear {
+	clear: both;
+	line-height: 0px;
+	font-size: 0px;
+}
+h4.design {
+	color: #FF9900;
+	margin: 0px 0px 4px;
+}
+h4.build {
+	color: #3366CC;
+	margin: 0px 0px 4px;
+}
+h4.joinery {
+	color: #FF0000;
+	margin: 0px 0px 4px;
+}
+.butts a
+{
+display: block;
+color: #666;
+background: #ccc;
+padding: 2px 0 2px 30px;
+border-top: solid 1px #fff;
+height: auto;
+width: 127px;
+text-decoration: none;
+}
+
+.butts a:hover
+{
+background: #aae;
+text-decoration: none;
+}
